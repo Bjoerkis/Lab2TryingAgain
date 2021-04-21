@@ -94,9 +94,9 @@ public class Menu {
                     stu.setName(name);
                     break;
                 case 2:
-                    System.out.print("New age: ");
-                    int age = scanInt();
-                    stu.setGrade(age);
+                    System.out.print("New grade: ");
+                    int grade = scanInt();
+                    stu.setGrade(grade);
                     break;
                 default:
                     System.out.println("Invalid selection");

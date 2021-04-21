@@ -1,7 +1,7 @@
 package studentinfo;
 
 import javax.persistence.*;
-import java.util.Objects;
+
 
 @Entity
 @Table(name = "students",schema = "student_info")
